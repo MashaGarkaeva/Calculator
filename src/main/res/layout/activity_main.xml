@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/one"
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginLeft="@dimen/left"
+        />
+
+    <EditText
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_for_edit"
+        android:layout_marginTop="@dimen/top"
+        android:text="@string/edit"
+        android:textSize="@dimen/editSize"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two"
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="@dimen/top_tw0"
+        android:layout_marginLeft="@dimen/left"
+        />
+    <EditText
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_for_edit"
+        android:layout_marginTop="@dimen/top_tw0"
+        android:text="@string/edit"
+        android:textSize="@dimen/editSize"
+        />
+    <Button
+        android:layout_width="@dimen/widht"
+        android:layout_height="@dimen/height"
+        android:text="@string/button"
+        android:layout_marginTop="@dimen/top_button"
+        android:layout_marginLeft="@dimen/left_button"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

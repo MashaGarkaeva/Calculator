@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="one">Num_one: </string>
+    <string name="two">Num_two: </string>
+    <string name="edit">Число</string>
+    <string name="button">Сложить</string>
+</resources>
